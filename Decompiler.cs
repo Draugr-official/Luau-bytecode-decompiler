@@ -260,7 +260,7 @@ namespace Bytecode_decompiler
             StringBuilder stb = new StringBuilder();
             for (int i = 0; i < hex.Length; i += 2)
             {
-                stb.Append(Convert.ToByte(hex.Substring(i, 2), 16));
+                stb.Append((char)Convert.ToByte(hex.Substring(i, 2), 16));
             }
             return stb.ToString();
         }
