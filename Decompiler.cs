@@ -4,11 +4,12 @@
 
  - Welcome to my decompiler source!
  - This will decompile mediocre bytecode into it's original shape.
- This is purposly released as a learning example, but usage of it
- such as in a decompiler is permitted.
+ This is purposly released as a learning example, meaning the code
+ is written badly for the purpose of learning how bytecode works, 
+ and how you would go about writing a decompiler for it.
  
- Type:            Console application.
- Initialized sln: No.
+ Type:            =>  Console application.
+ Initialized sln: =>  No.
 
  - Towards the bottom of the code, there'll be a "isFunction" method,
  add the functions you'd like to the string array there.
