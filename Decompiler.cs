@@ -38,19 +38,19 @@ namespace Bytecode_decompiler
             Decompile(File.ReadAllText(args[0]));
         }
 
-        static string strintable_siz = "";
+        static string stringtable_size = "";
         static void Decompile(string bytecode)
         {
             Console.Title = "Bytecode decompiler by Native x64 (_King_)";
             string inpt = bytecode;
-            strintable_siz = inpt.Split(' ')[1];
+            stringtable_size = inpt.Split(' ')[1];
             string[] hexs = inpt.Split(' ');
             string constr = "";
             
             int lk_r = 0;
             int init = 0;
             int clsr = 0;
-            Console.WriteLine("Constant pool size: " + hex2size(strintable_siz));
+            Console.WriteLine("Constant pool size: " + hex2size(stringtable_size));
             List<string> values = new List<string>();
             if (hexs[0] == "01") // If compilation was successfull
             {
