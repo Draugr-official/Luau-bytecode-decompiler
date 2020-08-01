@@ -1,4 +1,7 @@
 /*
+
+(For those who havent understood yet, this whole source is released as an inside joke some months ago)
+(Adding this since people genuinely thought this was real)
  
  ~ Luau bytecode decompiler ~
 
